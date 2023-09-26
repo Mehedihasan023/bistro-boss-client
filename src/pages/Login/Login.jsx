@@ -82,7 +82,7 @@ const Login = () => {
                                 </label>
                                 <input onBlur={handleValidateCaptcha} type="text" name="captcha" placeholder="type the captcha above" className="input input-bordered" />
                             </div>
-                            {/* To Do: use disabled state on captcha validation  */}
+                            {/* TODO: use disabled state on captcha validation  */}
                             <div className="form-control mt-6">
                                 <input disabled={false} className="btn btn-primary" type="submit" value="Login" />
                             </div>
